@@ -42,7 +42,7 @@ const Almuerzo = ({ allProducts, agregarPedido, pedidos, setPedidos }) => {
                       <div>
                         <button
                           type="button"
-                          className="btn btn-sim-dob m-1"
+                          className="btn btn-sim-dob m-1 larger"
                           onClick={() => {
                             // si la persona  hace click en  el boton simple entonces
                             setState((state) => ({
@@ -88,7 +88,7 @@ const Almuerzo = ({ allProducts, agregarPedido, pedidos, setPedidos }) => {
                       <div>
                         <button
                           type="button"
-                          className="btn btn-sim-dob m-1"
+                          className="btn btn-sim-dob m-1 larger"
                           onClick={() => {
                             // si la persona  hace click en  el boton doble entonces
                             setState((state) => ({

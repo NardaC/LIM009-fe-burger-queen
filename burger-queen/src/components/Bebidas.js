@@ -21,8 +21,11 @@ const Bebidas = ({ allProducts, agregarPedido, pedidos, setPedidos }) => {
                     ></img>
                   </div>
                   <div className="mb-3">
+                    <h6 className="card-title text-center">
+                      {ele.data().name}
+                    </h6>
                     <h4 className="card-title text-center">
-                      {ele.data().name} ${ele.data().price}{" "}
+                      ${ele.data().price}
                     </h4>
                     <button
                       className="btn mb-4 btn-verde center"

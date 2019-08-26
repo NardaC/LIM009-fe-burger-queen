@@ -27,9 +27,12 @@ const Adicional = ({
           <img className="card-img-top" src={imagen} alt=""></img>
         </div>
         <div className="mb-3">
-          <h4 className="card-title text-center">
-            {optionName} ${precio}
-          </h4>
+          <h5 className="card-title text-center">
+            {optionName} 
+          </h5>
+          <h5 className="card-title text-center">
+            ${precio}
+          </h5>
           <button
             className="btn mb-4 btn-verde center"
             onClick={() => {
