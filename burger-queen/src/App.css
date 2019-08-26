@@ -82,7 +82,7 @@ header{
 }
 .wrap{
   display: flex;
-  justify-content: space-around
+  justify-content: center
 }
 .larger{
   font-size: larger;
