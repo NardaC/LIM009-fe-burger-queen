@@ -63,7 +63,9 @@ const Pedido = ({
                     setPedidos={setPedidos}
                   />
                 ))}
-                {pedidos.length === 0 ? (
+              </tbody>
+            </table>
+            {pedidos.length === 0 ? (
                   ""
                 ) : (
                   <Total
@@ -72,8 +74,6 @@ const Pedido = ({
                     clientName={clientName}
                   />
                 )}
-              </tbody>
-            </table>
             {pedidos.length >= 1 && clientName !== "" && numeroDeMesa !== "" ? (
               <button
                 className="btn btn-success"

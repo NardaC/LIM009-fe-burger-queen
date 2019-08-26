@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="text-center mt-5">
+    <div className="wrap">
       
-        <Link to="/cocinero" className="m-5">
-          <img src="https://i.postimg.cc/0QfzjvbF/cocina.png" />
+        <Link to="/cocinero" className="mt-5">
+          <img src="https://i.postimg.cc/1Xqk1ttr/cocinero.png" />
         </Link>
      
-        <Link to="/mesero" className="m-5">
-          <img src="https://i.postimg.cc/zvGVRQhB/mesa.png" />
+        <Link to="/mesero" className="mt-5">
+          <img src="https://i.postimg.cc/vBjJK9Qm/mesero.png" />
         </Link>
       
     </div>

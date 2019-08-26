@@ -75,3 +75,12 @@ header{
   width: 30%;
   font-size: 1.5em
 }
+.total{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 25%;
+}
+.wrap{
+  display: flex;
+  justify-content: space-around
+}
